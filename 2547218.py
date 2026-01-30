@@ -144,6 +144,7 @@ elif page == "Sales Insights":
 # PAGE 3 : GEOGRAPHICAL ANALYSIS
 # =================================================
 else:
+    
 
     st.title("Geographical Silver Purchase Analysis")
     st.write(
@@ -158,7 +159,7 @@ else:
         st.write(india_states.columns.tolist())
 
     # -------- Auto-detect State Column --------
-    possible_cols = ["STATE_NAME", "st_nm", "STATE", "NAME_1", "NAME"]
+    possible_cols = ["State_Name", "st_nm", "STATE", "NAME_1", "NAME"]
 
     state_col = None
     for col in possible_cols:
